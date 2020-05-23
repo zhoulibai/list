@@ -1,0 +1,14 @@
+1、下载完list文件夹后，进入list文件夹，
+cd list/list/
+ls会显示如下目录
+compile.sh    LICENSE       orders.txt  run.sh      src.c
+customer.txt  lineitem.txt  readme      sourcecode
+
+2、在该目录下执行 ./compile.sh
+如若提示权限不够，可以先执行 chmod +x compile.sh
+再执行./compile.sh，，或者直接执行 sh compile.sh
+这一步是进行编译生成,o,.out文件 
+
+3、输入 ./run.sh customer.txt orders.txt lineitem.txt 1 BUILDING 1995-03-29 1995-03-27 5
+或./run.sh customer.txt orders.txt lineitem.txt 3 BUILDING 1995-03-29 1995-03-27 5 BUILDING 1995-02-29 1995-04-27 10 BUILDING 1995-03-28 1995-04-27 2
+查看筛选结果
