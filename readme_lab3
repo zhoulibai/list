@@ -1,0 +1,8 @@
+1、实验第一问的代码对应lab3_1.c
+ 执行gcc lab3_1.c -o lab3_1.out    ./lab3_1.out    输入中断信号[DEL]即.  查看结果
+
+2、与lab3_1.c操作一样，第二问对应lab3_2.c
+
+
+3、执行gcc lab3_3.c -lpthread -o c.out
+       ./c.out  查看结果
